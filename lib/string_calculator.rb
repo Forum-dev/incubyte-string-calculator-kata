@@ -33,8 +33,8 @@ class StringCalculator
 
   # Splits string by delimiter and converts to integers, treating empty parts as 0
   def parse_numbers(numbers, delimiter = /(,|\n)/)
-    numbers.split(delimiter).map do |num_str|
-      num_str.strip.empty? ? 0 : num_str.to_i
+    numbers.split(delimiter).reject { |str| str.strip.empty? }.map do |num_str|
+      num_str.to_i
     end
   end
 
