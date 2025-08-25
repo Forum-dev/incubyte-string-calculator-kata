@@ -13,7 +13,7 @@
       <img src="./assets/0.13.2/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2025-08-25T23:29:21+05:30">2025-08-25T23:29:21+05:30</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2025-08-25T23:30:46+05:30">2025-08-25T23:30:46+05:30</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -29,7 +29,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.08
+         1.5
        </span>
     </span> hits/line
     )
@@ -42,8 +42,8 @@
   </div>
 
   <div class="t-line-summary">
-    <b>12</b> relevant lines,
-    <span class="green"><b>12</b> lines covered</span> and
+    <b>20</b> relevant lines,
+    <span class="green"><b>20</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed. </span>
     (<span class="green">
   100.0%
@@ -72,20 +72,20 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#5b6efe3bd4c9ee8d434d2fed1f0481e22e024bb2" class="src_link" title="lib/string_calculator.rb">lib/string_calculator.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">6</td>
-            <td class="cell--number">4</td>
-            <td class="cell--number">4</td>
+            <td class="cell--number">12</td>
+            <td class="cell--number">7</td>
+            <td class="cell--number">7</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">1.25</td>
+            <td class="cell--number">2.43</td>
             
           </tr>
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#db03bd98528b391cd09b3c140b29857da3c1a56e" class="src_link" title="spec/string_calculator_spec.rb">spec/string_calculator_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">14</td>
-            <td class="cell--number">8</td>
-            <td class="cell--number">8</td>
+            <td class="cell--number">23</td>
+            <td class="cell--number">13</td>
+            <td class="cell--number">13</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -122,8 +122,8 @@
     
 
     <div class="t-line-summary">
-      <b>4</b> relevant lines.
-      <span class="green"><b>4</b> lines covered</span> and
+      <b>7</b> relevant lines.
+      <span class="green"><b>7</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -159,9 +159,9 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="2" data-linenumber="3">
+          <li class="covered" data-hits="5" data-linenumber="3">
             
-              <span class="hits">2</span>
+              <span class="hits">5</span>
             
 
             
@@ -171,14 +171,14 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="4">
+          <li class="covered" data-hits="4" data-linenumber="4">
             
-              <span class="hits">1</span>
-            
-
+              <span class="hits">4</span>
             
 
-            <code class="ruby">    numbers.to_i</code>
+            
+
+            <code class="ruby">    parse_numbers(numbers).reduce(0, :+)</code>
           </li>
         </div>
       
@@ -194,6 +194,72 @@
       
         <div>
           <li class="never" data-hits="" data-linenumber="6">
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="7">
+            
+              <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  private</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="8">
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="9">
+            
+              <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def parse_numbers(numbers)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="4" data-linenumber="10">
+            
+              <span class="hits">4</span>
+            
+
+            
+
+            <code class="ruby">    numbers.split(&#39;,&#39;).map(&amp;:to_i)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="11">
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="12">
             
 
             
@@ -221,8 +287,8 @@
     
 
     <div class="t-line-summary">
-      <b>8</b> relevant lines.
-      <span class="green"><b>8</b> lines covered</span> and
+      <b>13</b> relevant lines.
+      <span class="green"><b>13</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -375,12 +441,112 @@
 
             
 
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="14">
+            
+              <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    it &#39;returns sum for two comma-separated numbers&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="15">
+            
+              <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(subject.add(&#39;1,5&#39;)).to eq(6)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="16">
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="17">
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="18">
+            
+              <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    it &#39;returns sum for arbitrary comma-separated numbers&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="19">
+            
+              <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(subject.add(&#39;1,2,3&#39;)).to eq(6)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="20">
+            
+              <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(subject.add(&#39;1,2,3,4,5&#39;)).to eq(15)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="21">
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="22">
+            
+
+            
+
             <code class="ruby">  end</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="14">
+          <li class="never" data-hits="" data-linenumber="23">
             
 
             
